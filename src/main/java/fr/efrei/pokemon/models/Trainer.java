@@ -16,6 +16,9 @@ public class Trainer {
 	@OneToMany
 	private List<Pokemon> team;
 
+	@OneToMany
+	private List<Item> inventory;
+
 	public String getId() {
 		return id;
 	}
@@ -39,4 +42,13 @@ public class Trainer {
 	public void setTeam(List<Pokemon> team) {
 		this.team = team;
 	}
+
+	public List<Item> getInventory() {
+		return inventory;
+	}
+
+	public void setInventory(List<Item> inventory) {
+		this.inventory = inventory;
+	}
+
 }

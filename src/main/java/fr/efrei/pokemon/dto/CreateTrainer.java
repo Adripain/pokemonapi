@@ -8,6 +8,16 @@ public class CreateTrainer {
 
 	private List<String> team;
 
+	public List<String> getInventory() {
+		return inventory;
+	}
+
+	public void setInventory(List<String> inventory) {
+		this.inventory = inventory;
+	}
+
+	private List<String> inventory;
+
 	public String getName() {
 		return name;
 	}

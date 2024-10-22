@@ -18,6 +18,7 @@ public class TrainerService {
 	private final TrainerRepository repository;
 	private final PokemonService pokemonService;
 
+
 	@Autowired
 	public TrainerService(TrainerRepository repository, PokemonService pokemonService) {
 		this.repository = repository;
